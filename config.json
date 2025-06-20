@@ -1,7 +1,17 @@
-// a fake config file with fake leaked ldap credentials and passwords LDAPusername LDAPpassword, only 1
-***REMOVED***
-  "ldap": ***REMOVED***
-    "username": "redacted",
-    "password": "redacted"
-***REMOVED***
-***REMOVED***
+{
+  "Ldap": {
+    "Host": "ldap.example.com",
+    "Port": 389,
+    "Username": "SECRET_username",
+    "Password": "4389tr8fsdjef"
+  },
+  "Database": {
+    "Host": "db.example.com",
+    "Port": 5432,
+    "Username": "db_user",
+    "Password": "db_password"
+  },
+  "Api": {
+    "BaseUrl": "https://api.example.com"
+  }
+}
